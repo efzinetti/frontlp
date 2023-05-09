@@ -1,0 +1,43 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: navy;
+    background-color: antiquewhite
+}
+
+h1 {
+    font-size: 48px;
+    text-decoration:underline
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration:underline
+}
+
+/* --- */
+
+aside {
+    border: 2px solid red
+}
+
+nav {
+    border: 2px solid black;
+    padding: 10px
+}
+
+section {
+    border: 2px solid black
+}
+
+
+/* --- */
+
+.icono-whatsapp {
+    position: fixed;
+    top: 10px;
+    right:80px
+}
+
+.titulo-celda {
+    text-align: center
+}
