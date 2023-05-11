@@ -4,6 +4,8 @@
     <head>
         <!-- para que aparezcan acentos y caracteres -->
         <meta charset="utf-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+
         <title>¡Las mejores recetas!</title>
 
         <link rel="stylesheet" href="./css/recetas.css">
@@ -14,67 +16,97 @@
 
     <body>
 
-        <p class="icono-whatsapp">
-            <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
-        </p>
+        <!--
+            <p class="icono-whatsapp">
+                <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
+            </p>
+        -->
 
         <header>
-            <h1>Las mejores recetas!</h1>
-            <p>Estas son las recetas de los postres más ricos.</p>
-            <p>La receta de la semana es de la Chocotorta, pero no dejes de ver las otras recetas que te van a encantar!.</p>
+
+            <div class="celda-borde">
+                <img src="./img/logo-recetas.jpg"/>
+            </div>
+            
+            <div class="celda-center"><h2>¡Estas son las mejores recetas!</h2></div>
+
+            <div class="celda-center">
+                <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
+                <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
+                <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
+            </div>
+
+
         </header>
 
 
 
         <nav>
-            <a href="./recetas/cheesecake.html" target="_blank">Cheesecake</a>
-            <a href="./recetas/chocotorta.html" target="_blank">Chocotorta</a>
-            <a href="./recetas/lemonpie.html" target="_blank">Lemon Pie</a>
-            <a href="./recetas/tiramisu.html" target="_blank">Tiramisú</a>
+            <div><a href="./recetas/cheesecake.html" target="_blank">Cheesecake</a></div>
+            <div><a href="./recetas/chocotorta.html" target="_blank">Chocotorta</a></div>
+            <div><a href="./recetas/lemonpie.html" target="_blank">Lemon Pie</a></div>
+            <div><a href="./recetas/tiramisu.html" target="_blank">Tiramisú</a></div>
+            <a href="https://www.google.com/search?q=receta+brownies" target="_blank">Brownies</a>
+            <a href="https://www.google.com/search?q=receta+pastafrola" target="_blank">Pastafrola</a>
+            <a href="https://www.google.com/search?q=receta+mousse+chocolate" target="_blank">Mousse de chocolate</a>
         </nav>
 
+        <main>
 
-        <aside>
-            <!-- INI Google Maps -->
-            <p>Las mejores recetas te las presentamos en Buenos Aires, Argentina</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456532458!2d-58.51569967596178!3d-34.61579604829675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1683063326491!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- FIN Google Maps -->
-            </td>
-            <td>&nbsp;</td>
-            <td valign="top">
+            <section>
+                <h3>¡Estas son las mejores recetas!</h3>
+                <p>Aquí te presentamos las mejores recetas, los postres más ricos, para preparar fácil y disfrutar con quien quieras.</p>
+            </section>
+
+            <section class="section-fotos-finalizadas">
+
+                <h3>Fotos de recetas finalizadas</h3>
+
+                <img src="./img/chocotorta/Chocotorta.webp" width="250" height="200" />
+                <img src="./img/lemonpie/IMG_5051.jpg" width="250" height="200" />
+
+            </section>
+
+            <aside>
+                <!-- INI Google Maps -->
+                <p>Las mejores recetas te las presentamos en Buenos Aires, Argentina</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456532458!2d-58.51569967596178!3d-34.61579604829675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1683063326491!5m2!1ses-419!2sar" width="280" height="157" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- FIN Google Maps -->
+                </td>
+                <td>&nbsp;</td>
+                <td valign="top">
 
 
-                <!-- INI YouTube -->
-                <p>Mirá cómo se prepara una chocotorta:</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <!-- FIN YouTube -->
-                <!-- INI YouTube -->
-                <p>Mirá cómo se prepara un cheesecake:</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <!-- FIN YouTube -->
+                    <!-- INI YouTube -->
+                    <p>Mirá cómo se prepara una chocotorta:</p>
+                    <iframe width="280" height="157" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!-- FIN YouTube -->
+                    <!-- INI YouTube -->
+                    <p>Mirá cómo se prepara un cheesecake:</p>
+                    <iframe width="280" height="157" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!-- FIN YouTube -->
 
+            </aside>
 
-</aside>
-
-
-
-        <section>
-
-            <h2>Fotos de recetas finalizadas</h2>
-
-            <img src="./img/chocotorta/Chocotorta.webp" width="30%" height="30%" />
-            <img src="./img/lemonpie/IMG_5051.jpg" width="35%" height="35%" />
-
-        </section>
-
+        </main>
 
 
         <footer>
-            <h3>Nuestras redes</h3>
 
-            <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
-            <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
-            <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
+            <div class="celda-borde">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104686.28495330687!2d-58.03539972277923!3d-34.920339744260964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683829372612!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="celda-center">
+                <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
+                <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
+                <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
+            </div>
+
+            <div class="celda-borde"><p>Powered by Edu,<br />La Plata, Buenos Aires,<br />Argentina</p></div>
+
 
         </footer>
 

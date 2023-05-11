@@ -17,25 +17,75 @@ h2 {
 /* --- */
 
 aside {
-    border: 2px solid red
+    border: 0px solid yellow;
+    width: 30%
+}
+
+header {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+footer {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
 }
 
 nav {
-    border: 2px solid black;
-    padding: 10px
+    border: 0px solid green;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around   
 }
 
-section {
-    border: 2px solid black
+main {
+    border: 0px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
 }
+
+
+section {
+    border: 0px solid blue;
+    width: 30%
+}
+
 
 
 /* --- */
+
+.celda-center {
+    display: flex;
+    align-items: center
+}
+
+
+.celda-borde {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center
+}
+
 
 .icono-whatsapp {
     position: fixed;
     top: 10px;
     right:80px
+}
+
+.section-fotos-finalizadas {
+    flex-wrap: wrap;
+    align-items: center;
+    border: 0px solid blue;
+    width: 30%
 }
 
 .titulo-celda {
