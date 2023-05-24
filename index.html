@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <!-- para que aparezcan acentos y caracteres -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+<head>
 
-        <title>¡Las mejores recetas!</title>
+    <!-- para que aparezcan acentos y caracteres -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./css/recetas.css">
+    <title>¡Las mejores recetas!</title>
 
-    </head>
+    <link rel="stylesheet" href="./css/recetas.css">
+
+    <!-- Google Fonts INI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital@1&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <!-- Google Fonts FIN -->
+
+</head>
 
 
 
     <body>
 
-            <p class="icono-whatsapp">
-                <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
-            </p>
+        <p class="icono-whatsapp"><a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a></p>
+
 
         <header>
 
-            <div class="celda-borde">
-                <img src="./img/logo-recetas.jpg"/>
-            </div>
-            
+            <div class="celda-borde"><img src="./img/logo-recetas.jpg"/></div>
             <div class="celda-center"><h2>¡Estas son las mejores recetas!</h2></div>
 
             <div class="celda-center">
@@ -34,7 +37,6 @@
                 <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
                 <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
             </div>
-
 
         </header>
 
@@ -52,17 +54,25 @@
 
         <main>
 
-            <section>
-                <h3>¡Estas son las mejores recetas!</h3>
-                <p>Aquí te presentamos las mejores recetas, los postres más ricos, para preparar fácil y disfrutar con quien quieras.</p>
-            </section>
+            <section class="section-contenido">
+                <div>
+                    <h3>¡Estas son las mejores recetas!</h3>
+                    <p>Aquí te presentamos las mejores recetas, los postres más ricos, para preparar fácil y disfrutar con quien quieras.</p>
+                </div>
 
-            <section class="section-fotos-finalizadas">
+                <section class="section-fotos-finalizadas">
+                    <h3>Fotos de recetas finalizadas</h3>
+                    <img src="./img/chocotorta/Chocotorta.webp" width="250" height="200" />
+                    <img src="./img/lemonpie/IMG_5051.jpg" width="250" height="200" />
 
-                <h3>Fotos de recetas finalizadas</h3>
+                    <div>
+                        <p class="titulo-custom-1">Texto prueba 1</p>
+                        <p class="titulo-custom-2">Texto prueba 2</p>
+                        <p class="titulo-custom-3">Texto prueba 3</p>
+                        <p class="titulo-custom-4">Texto prueba 4</p>
+                    </div>
 
-                <img src="./img/chocotorta/Chocotorta.webp" width="250" height="200" />
-                <img src="./img/lemonpie/IMG_5051.jpg" width="250" height="200" />
+                </section>
 
             </section>
 
@@ -71,27 +81,22 @@
                 <p>Las mejores recetas te las presentamos en Buenos Aires, Argentina</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456532458!2d-58.51569967596178!3d-34.61579604829675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1683063326491!5m2!1ses-419!2sar" width="280" height="157" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- FIN Google Maps -->
-                </td>
-                <td>&nbsp;</td>
-                <td valign="top">
 
+                <!-- INI YouTube -->
+                <p>Mirá cómo se prepara una chocotorta:</p>
+                <iframe width="280" height="157" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- FIN YouTube -->
 
-                    <!-- INI YouTube -->
-                    <p>Mirá cómo se prepara una chocotorta:</p>
-                    <iframe width="280" height="157" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <!-- FIN YouTube -->
-                    <!-- INI YouTube -->
-                    <p>Mirá cómo se prepara un cheesecake:</p>
-                    <iframe width="280" height="157" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <!-- FIN YouTube -->
-
+                <!-- INI YouTube -->
+                <p>Mirá cómo se prepara un cheesecake:</p>
+                <iframe width="280" height="157" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- FIN YouTube -->
             </aside>
 
         </main>
 
 
         <footer>
-
             <div class="celda-borde">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104686.28495330687!2d-58.03539972277923!3d-34.920339744260964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683829372612!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -104,8 +109,6 @@
             </div>
 
             <div class="celda-borde"><p>Powered by Edu,<br />La Plata, Buenos Aires,<br />Argentina</p></div>
-
-
         </footer>
 
 
