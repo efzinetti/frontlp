@@ -5,16 +5,11 @@
 
     <!-- para que aparezcan acentos y caracteres -->
     <meta charset="utf-8" />
-
-    <meta name="description" content="Las mejores recetas" />
-    <meta name="keywords" content="Recetas, Tortas, Postres" />
-    <meta name="author" content="Eduardo Zinetti" />
-
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-
 
     <title>¡Las mejores recetas!</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/recetas.css">
 
     <!-- Google Fonts INI -->
@@ -23,8 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair:ital@1&family=Poppins:wght@800&display=swap" rel="stylesheet">
     <!-- Google Fonts FIN -->
 
-</head>
+    <!-- Bootstrap INI -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Bootstrap FIN -->
 
+</head>
 
 
     <body>
@@ -34,7 +33,7 @@
 
         <header>
 
-            <div class="celda-borde"><img class="img-logo" src="./img/logo-recetas.jpg"/></div>
+            <div class="celda-borde"><img src="./img/logo-recetas.jpg"/></div>
             <div class="celda-center"><h2>¡Estas son las mejores recetas!</h2></div>
 
             <div class="celda-center">
@@ -58,40 +57,88 @@
             <a href="https://www.google.com/search?q=receta+mousse+chocolate" target="_blank">Mousse de chocolate</a>
         </nav>
 
+
+
         <main>
 
             <section class="section-contenido">
+
                 <div>
                     <h3>¡Estas son las mejores recetas!</h3>
                     <p>Aquí te presentamos las mejores recetas, los postres más ricos, para preparar fácil y disfrutar con quien quieras.</p>
                 </div>
 
-                <section class="section-fotos-finalizadas">
-                    <h3>Fotos de recetas finalizadas</h3>
-                    <img class="torta" src="./img/chocotorta/Chocotorta.webp" width="350" height="275" />
-                    <img class="torta" src="./img/lemonpie/IMG_5051.jpg" width="350" height="275" />
-                    <div class="huevo-pascua"><img src="./img/huevo-pascua.jfif" /></div>
-                    <div class="otro-huevo"><img src="./img/otro-huevo.jfif" /></div>
-</section>
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+
+                            <div class="card">
+                                <img src="./img/chocotorta/Chocotorta.webp" class="card-img-top" alt="Chocotorta">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocotorta</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ver receta</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="./img/cheesecake/cheesecake.jfif" class="card-img-top" alt="Cheesecake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cheesecake</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ver receta</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="./img/lemonpie/IMG_5050.jpg" class="card-img-top" alt="Lemon Pie">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemon Pie</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ver receta</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="./img/tiramisu/tiramisu.jfif" class="card-img-top" alt="Tiramisu">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tiramisu</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Ver receta</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </section>
 
-            <aside>
-                <!-- INI Google Maps -->
-                <p>Las mejores recetas te las presentamos en Buenos Aires, Argentina</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456532458!2d-58.51569967596178!3d-34.61579604829675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1683063326491!5m2!1ses-419!2sar" width="280" height="157" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <!-- FIN Google Maps -->
 
-                <!-- INI YouTube -->
-                <p>Mirá cómo se prepara una chocotorta:</p>
-                <iframe width="280" height="157" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <!-- FIN YouTube -->
 
-                <!-- INI YouTube -->
-                <p>Mirá cómo se prepara un cheesecake:</p>
-                <iframe width="280" height="157" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <!-- FIN YouTube -->
-            </aside>
+            <!--
+                <aside>
+                    <p>Las mejores recetas te las presentamos en Buenos Aires, Argentina</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456532458!2d-58.51569967596178!3d-34.61579604829675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1683063326491!5m2!1ses-419!2sar" width="280" height="157" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <p>Mirá cómo se prepara una chocotorta:</p>
+                    <iframe width="280" height="157" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <p>Mirá cómo se prepara un cheesecake:</p>
+                    <iframe width="280" height="157" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </aside>
+    -->
+
 
         </main>
 

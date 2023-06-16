@@ -28,98 +28,6 @@ a:active {
 
 /* --- */
 
-
-/* Pantalla grande */
-@media (min-width: 1200px) {
-    body {
-        background-color: lightpink
-    }
-
-    h2 {
-        font-size: 36px
-    }
-
-    .img-logo {
-        width: 100%; height: 100%
-    }
-
-    .torta {
-        width: 350px;
-        height: 275px
-    }
-
-    .huevo-pascua {
-        display: none
-    }
-
-
-    .otro-huevo {
-        display: none
-    }
-}
-
-/* Tablet */
-@media (max-width: 1199px) {
-    body {
-        background-color: gainsboro
-    }
-
-    h2 {
-        font-size: 24px
-    }
-
-    .img-logo {
-        width: 75%;
-        height: 90%
-    }
-
-    .torta {
-        width: 250px;
-        height: 175px
-    }
-
-
-    .huevo-pascua {
-        display: none
-    }
-
-    .otro-huevo {
-        display: block
-    }
-}
-
-/* Mobile */
-@media (max-width: 799px) {
-    body {
-        background-color: lightskyblue
-    }
-    h2 {
-        font-size: 12px;
-    }
-
-    .img-logo {
-        width: 50%;
-        height: 80%
-    }
-
-    .torta {
-        width: 150px;
-        height: 100px
-    }
-
-
-    .huevo-pascua {
-        display: block
-    }
-
-    .otro-huevo {
-        display: block
-    }
-
-}
-
-
-
 aside {
     flex-wrap: wrap;
     justify-content: right;
@@ -198,6 +106,9 @@ section {
 }
 
 .section-fotos-finalizadas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     border: 0px solid orange;
     width: 75%
 }
