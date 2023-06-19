@@ -23,145 +23,166 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <!-- Bootstrap FIN -->
 
+    <script src="./js/scripts.js"></script>
+
 </head>
 
 
-    <body>
+<body>
 
-        <p class="icono-whatsapp"><a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a></p>
+    <p class="icono-whatsapp"><a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a></p>
 
 
-        <header>
+    <header id="hdr">
 
-            <div class="celda-borde"><img src="./img/logo-recetas.jpg"/></div>
-            <div class="celda-center"><h2>¡Estas son las mejores recetas!</h2></div>
+        <div class="celda-borde"><img src="./img/logo-recetas.jpg" /></div>
+        <div class="celda-center"><h1>¡Estas son las mejores recetas!</h1></div>
 
-            <div class="celda-center">
-                <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
-                <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
-                <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
-                <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
+        <div class="celda-center">
+            <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
+            <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
+            <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
+        </div>
+
+    </header>
+
+
+
+    <nav id="navrecetas">
+        <div><a href="./recetas/cheesecake.html" target="_blank">Cheesecake</a></div>
+        <div><a href="./recetas/chocotorta.html" target="_blank">Chocotorta</a></div>
+        <div><a href="./recetas/lemonpie.html" target="_blank">Lemon Pie</a></div>
+        <div><a href="./recetas/tiramisu.html" target="_blank">Tiramisú</a></div>
+        <a href="https://www.google.com/search?q=receta+brownies" target="_blank">Brownies</a>
+        <a href="https://www.google.com/search?q=receta+pastafrola" target="_blank">Pastafrola</a>
+        <a href="https://www.google.com/search?q=receta+mousse+chocolate" target="_blank">Mousse de chocolate</a>
+    </nav>
+
+
+    <div>
+        <p>&nbsp;</p>
+        <p id="txtconv">Para darle a esta página accesibilidad a personas con discapacidad visual, presione el botón "Convertir"</p>
+        <button onclick="convertir()">Convertir</button>
+        <p>&nbsp;</p>
+    </div>
+
+    <main>
+
+        <section id="texto-receta">
+
+            <h1 id="texto-receta"><p>Chocotorta</p></h1>
+
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>2 paquetes de galletas de chocolate (<i>Chocolinas</i> o similares)</li>
+                <li>600 g. de queso crema (<i>Mendicrim</i> o similar)</li>
+                <li>600 g. de dulce de leche</li>
+                <li>200 ml. de café</li>
+                <li>100 g. de chocolate para decorar</li>
+                <li>100 g. de crema de leche</li>
+            </ul>
+
+            <p><img src="./img/chocotorta/relleno.webp" width="500" height="153" /></p>
+
+            <h2>Paso a paso</h2>
+            <ul>
+                <li>Mezclamos en un bol el queso y el dulce de leche hasta conseguir una crema homogénea. Tapar y poner en la heladera.</li>
+                <li>Mojar galletitas de a una en café tibio y colocar lado a lado en un molde rectangular o cuadrado.</li>
+                <li>Luego de completar una capa de galletitas, untar una capa con parte de la mezcla de queso y dulce de leche.</li>
+                <li>Agregar una nueva capa de galletitas mojadas en café y luego volver a cubrir con mezcla de queso y dulce de leche hasta agotar galletitas y mezcla.</li>
+                <li>Para decorar, agregar una capa de crema de leche batida y adornar con virutas de chocolate o espolvorear cacao.</li>
+                <li>Llevar a heladera la mayor cantidad de horas antes de consumir. Idealmente, de un día para otro.</li>
+            </ul>
+
+            <div>
+                <img src="./img/chocotorta/images.jpg" width="250" height="153" />
+                <img src="./img/chocotorta/chocotorta.webp" width="250" height="153" />
             </div>
 
-        </header>
+            <p>&nbsp;</p>
 
+            <!-- Bootstrap Cards -->
+            <div class="container">
 
-
-        <nav>
-            <div><a href="./recetas/cheesecake.html" target="_blank">Cheesecake</a></div>
-            <div><a href="./recetas/chocotorta.html" target="_blank">Chocotorta</a></div>
-            <div><a href="./recetas/lemonpie.html" target="_blank">Lemon Pie</a></div>
-            <div><a href="./recetas/tiramisu.html" target="_blank">Tiramisú</a></div>
-            <a href="https://www.google.com/search?q=receta+brownies" target="_blank">Brownies</a>
-            <a href="https://www.google.com/search?q=receta+pastafrola" target="_blank">Pastafrola</a>
-            <a href="https://www.google.com/search?q=receta+mousse+chocolate" target="_blank">Mousse de chocolate</a>
-        </nav>
-
-
-
-        <main>
-
-            <section class="section-contenido">
-
-                <div>
-                    <h3>¡Estas son las mejores recetas!</h3>
-                    <p>Aquí te presentamos las mejores recetas, los postres más ricos, para preparar fácil y disfrutar con quien quieras.</p>
-                </div>
-
-
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-
-                            <div class="card">
-                                <img src="./img/chocotorta/Chocotorta.webp" class="card-img-top" alt="Chocotorta">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chocotorta</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="./img/chocotorta/Chocotorta.webp" class="card-img-top" alt="Chocotorta">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocotorta</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver receta</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <img src="./img/cheesecake/cheesecake.jfif" class="card-img-top" alt="Cheesecake">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cheesecake</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="./img/cheesecake/cheesecake.jfif" class="card-img-top" alt="Cheesecake">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheesecake</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver receta</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <img src="./img/lemonpie/IMG_5050.jpg" class="card-img-top" alt="Lemon Pie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lemon Pie</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="./img/lemonpie/IMG_5050.jpg" class="card-img-top" alt="Lemon Pie">
+                            <div class="card-body">
+                                <h5 class="card-title">Lemon Pie</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver receta</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <img src="./img/tiramisu/tiramisu.jfif" class="card-img-top" alt="Tiramisu">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tiramisu</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="./img/tiramisu/tiramisu.jfif" class="card-img-top" alt="Tiramisu">
+                            <div class="card-body">
+                                <h5 class="card-title">Tiramisu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver receta</a>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
 
-            </section>
-
-
-
-            <!--
-                <aside>
-                    <p>Las mejores recetas te las presentamos en Buenos Aires, Argentina</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456532458!2d-58.51569967596178!3d-34.61579604829675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1683063326491!5m2!1ses-419!2sar" width="280" height="157" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                    <p>Mirá cómo se prepara una chocotorta:</p>
-                    <iframe width="280" height="157" src="https://www.youtube.com/embed/ahskzhRtzjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                    <p>Mirá cómo se prepara un cheesecake:</p>
-                    <iframe width="280" height="157" src="https://www.youtube.com/embed/JkrYkFxL29A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                </aside>
-    -->
-
-
-        </main>
-
-
-        <footer>
-            <div class="celda-borde">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104686.28495330687!2d-58.03539972277923!3d-34.920339744260964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683829372612!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <!-- Fin Bootstrap -->
 
-            <div class="celda-center">
-                <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
-                <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
-                <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
-                <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
-            </div>
+        </section>
 
-            <div class="celda-borde"><p>Powered by Edu,<br />La Plata, Buenos Aires,<br />Argentina</p></div>
-        </footer>
+    </main>
 
+    <p>&nbsp;</p>
 
+    <footer>
+        <div class="celda-borde">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104686.28495330687!2d-58.03539972277923!3d-34.920339744260964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683829372612!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-    </body>
+        <div class="celda-center">
+            <a href="https://wa.me/5491122334455" target="_blank"><img src="./img/logo-whatsapp.jfif" / width="50" height="50"></a>
+            <a href="http://www.facebook.com" target="_blank"><img src="./img/logo-facebook.png" / width="50" height="50"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="./img/logo-instagram.jfif" / width="50" height="50"></a>
+            <a href="http://www.tiktok.com" target="_blank"><img src="./img/logo-tiktok.png" / width="50" height="50"></a>
+        </div>
 
+        <div class="celda-center">
+            <button class="btnweb" onclick="webmaster()">Webmaster</button>
+        </div>
 
+    </footer>
+
+</body>
+
+<script>
+    alert("Bienvenidos a la página de las mejores recetas!")
+</script>
 
 </html>

@@ -1,16 +1,15 @@
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: navy;
-    background-color: antiquewhite
+    background-color: red
 }
 
 h1 {
-    font-size: 48px;
-    text-decoration:underline
+    font-size: 92px
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 24px;
     text-decoration:underline
 }
 
@@ -72,6 +71,11 @@ section {
 
 
 /* --- */
+
+.btnweb {
+    height: 30px
+}
+
 
 .celda-center {
     display: flex;
